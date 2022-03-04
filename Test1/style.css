@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: 3% auto;
+  background-color: rgba(145, 139, 139, 0.329);
+  padding: 10px;
+}
+h1,
+h2 {
+  font-size: 52px;
+  color: rgb(80, 15, 15);
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.newbie-topic {
+  margin-top: 50px;
+}
+
+img {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  width: 25em;
+}
+
+h4 {
+  font-size: 22px;
+  margin-top: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.newbie-is-heading {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.links {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: red;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.btn {
+  background-color: white;
+  padding: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 20px;
+  color: black;
+  font-size: 25px;
+  font-family: monospace;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+  transition: 1s all;
+}
+a:focus {
+  color: rgb(109, 109, 22);
+}
+
+a:hover {
+  color: rgb(80, 15, 15);
+}

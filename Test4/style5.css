@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: url("https://pixabay.com/get/g82d5b73ec07d2cb3148787940fc360c9bc8ee8d2fcc37cc02dcd3ed70531e373e684df7e7019b2e1b6f6eb8abf979a48.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  margin: 0;
+}
+h2 {
+  font-size: 24px;
+  padding: 10px;
+  color: #2d45b9;
+  text-align: center;
+  margin: 10px 0;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  text-transform: capitalize;
+}
+p {
+  width: 480px;
+  margin: 0 auto;
+  font-size: 17px;
+  font-family: fantasy;
+}
+
+a {
+  color: #1ad760;
+}
+a:hover,
+a:focus {
+  color: white;
+}
+
+header {
+  background: #2d45b9;
+  padding: 45px 0;
+  color: #1ad760;
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+section {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.section-two {
+  background-color: #1ad760;
+  color: #2d45b9;
+}
+
+img {
+  width: 500px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  text-decoration: none;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.btn-dark {
+  background-color: #2d45b9;
+  color: #1ad760;
+}
+
+.btn-dark:hover {
+  background-color: black;
+  color: white;
+}
+.btn-light {
+  background-color: #2d45b9;
+  color: #1ad760;
+  float: right;
+}
+.btn-light:hover {
+  background-color: black;
+  color: white;
+}
