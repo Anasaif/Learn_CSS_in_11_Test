@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-template: 100px 200px 50px / 100px 200px 100px;
+  grid-column-gap: 1rem;
+  grid-row-gap: 2rem;
+}
+
+.grid-item {
+  color: black;
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(20, 209, 20, 0.473);
+}
+
+.one {
+  background: rgba(255, 192, 203, 0.596);
+}
+
+.two {
+  background: rgba(0, 0, 255, 0.322);
+  align-self: center;
+  justify-self: center;
+}
+
+.three {
+  background: rgba(173, 9, 9, 0.418);
+}
+
+.four {
+  background: rgba(0, 128, 0, 0.384);
+  align-self: center;
+  justify-self: center;
+}
+
+.five {
+  background: rgba(0, 0, 0, 0.226);
+}
+
+.six {
+  background: rgba(255, 255, 0, 0.418);
+  align-self: center;
+  justify-self: center;
+}
